@@ -1,0 +1,77 @@
+<!--Estructura HTML-5-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Datos no Vicibles de la WEB-->
+<head>
+
+    <!--Meta Datos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------->
+
+    <!--Links-->
+    <link rel="stylesheet" href="Style/decision.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="Img/Logo_7Pasos.png" alt="7">
+    <!--------->
+
+    <!--Otros-->
+    <title>DECISIÓN</title>
+    <!--------->
+
+</head>
+<!-------------------------------->
+
+<!--Cuerpo de la WEB-->
+<body>
+
+    <!--Mi Decision-->
+    <div class="contenedor">
+
+        <!--Texto-->
+        <div class="desicion">
+            <h2>MI DECISIÓN</h2>
+            <p>Decido ver a Jesús en la cruz del calvario, muriendo por el perdón de mis pecados.</p>
+        </div>
+        <!--------->
+
+        <!--CheckBox-->
+        <div class="wraper">
+
+            <input type="checkbox" id="miCasilla" onclick="quitar()"><br>
+
+            <div class="flecha" id="flecha">
+                <img src="Img/Oprimir_Orange.png" height="30px">
+            </div>
+
+            <label for="acepto">Acepto</label>
+
+        </div>
+        <!------------>
+
+        <!--Boton-->
+        <div class="boton">
+
+            <button onclick="verificarCasilla()">Continuar</button>
+
+            <div class="flecha2" id="flecha2">
+                <img src="Img/Oprimir_Orange.png" height="30px">
+            </div>
+
+        </div>
+        <!--------->
+
+    </div>
+    <!--------------->
+
+    <!--Scripts-->
+    <script src="Js/decison.js"></script>
+    <script src="Js/js.js"></script>
+    <!---------->
+
+</body>
+<!-------------------->
+
+</html>
+<!--------------------->
